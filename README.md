@@ -1,2 +1,28 @@
-# Agentic-Workflow-Implementation-using-Langgraph
-This project implements an agentic workflow using LangGraph, featuring a PlanAgent to decompose user queries into tasks and a ToolAgent that executes them using real tools like square root calculation, AI news scraping, and summarization. It returns accurate, human-readable results in a Streamlit-powered interface.
+# Agentic Workflow with LangGraph and Streamlit
+
+## Overview
+This project demonstrates an agentic workflow using LangGraph with PlanAgent, ToolAgent, and feedback loop, all in a Streamlit interface.
+
+## Features
+- Dynamic query input
+- Decomposes queries into tasks
+- Executes tasks with simulated output
+- Feedback loop integration
+- Streamlit UI
+
+## Setup
+
+1. Create a `.env` file:
+```
+COHERE_API_KEY=your-api-key-here
+```
+
+2. Install dependencies:
+```
+pip install -r requirements.txt
+```
+
+3. Run the app:
+```
+streamlit run main.py
+```
